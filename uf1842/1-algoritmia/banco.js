@@ -14,8 +14,9 @@
  */
 
 function gestionarCuenta(saldo, operacion, cantidad) {
-
+return operacion === "ingresar" ? saldo + cantidad : saldo - cantidad;
 }
+
 
 // Prueba 1: Ingresar dinero
 console.log(gestionarCuenta(1000, "ingresar", 500)); 

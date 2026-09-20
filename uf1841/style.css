@@ -2,7 +2,7 @@
   Completa o modifica las reglas CSS
 */
 body {
-  font-family: Verdana;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .coupon {
@@ -10,16 +10,20 @@ body {
   border-radius: 15px;
   margin: 0 auto;
   max-width: 600px;
+   border: 5px dotted #bbbbbb;
 }
 
 .container {
-  background-color: greenyellow;
+  background-color: #f1f1f1;
+  padding: 2px 16px;
+  
 }
 
 .promo {
   padding: 3px;
+  background-color: #cccccc;
 }
 
 .expire {
-  color: black;
+  color: red;
 }
