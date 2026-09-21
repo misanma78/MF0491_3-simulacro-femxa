@@ -16,3 +16,5 @@ async function getPerson(){
     /* Faltan dos líneas de código. Una para actualizar la imagen y otra para el email  */
     
 }
+document.querySelector("#photo").src = data.results[0].picture.large;
+document.querySelector("#email").textContent = data.results[0].email.toUpperCase();
